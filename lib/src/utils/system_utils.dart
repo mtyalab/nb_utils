@@ -214,12 +214,12 @@ Future<ThemeData> getMaterialYouTheme() async {
   if (colors.isEmpty) {
     return ThemeData(
       useMaterial3: true,
-      useSystemColors: true,
+     /// useSystemColors: true,
     );
   } else {
     return ThemeData(
       useMaterial3: true,
-      useSystemColors: true,
+     /// useSystemColors: true,
       colorSchemeSeed: colors['system_accent1_100'].toString().toColor(),
     );
   }
